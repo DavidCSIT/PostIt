@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-
 <div class="row ">
     @foreach($posts as $post)
       <div class="col-sm-4 my-1">
