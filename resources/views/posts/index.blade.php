@@ -17,6 +17,7 @@
               <a class="btn btn-success mx-1" href="/posts/{{$post->id}}/edit">Edit</a>
               <button type="submit" title="delete" class="btn btn-danger mx-1" >Delete</button>
                @endauth
+             </form>
           </div>
         </div>
       </div>
