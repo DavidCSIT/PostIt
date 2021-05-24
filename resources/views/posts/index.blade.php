@@ -4,7 +4,11 @@
     @foreach($posts as $post)
       <div class="col-sm-4 my-1">
         <div class="card">
-          <div class="card-body @if ($post->colour == "Yellow") bg-warning @endif">
+          <div class="card-body
+              @if ($post->colour == "Yellow") bg-warning
+              @elseif ($post->colour == "Orange") orange              
+              @endif
+          ">
             <h5 class="card-title">{{$post->title}}</h5>
             <p class="card-text">{{ $post->content }}</p>
 
