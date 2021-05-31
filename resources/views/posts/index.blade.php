@@ -6,7 +6,8 @@
         <div class="card">
           <div class="card-body
               @if ($post->colour == "Yellow") bg-warning
-              @elseif ($post->colour == "Orange") orange              
+              @elseif ($post->colour == "Orange") orange
+              @elseif ($post->colour == "Blue") blue
               @endif
           ">
             <h5 class="card-title">{{$post->title}}</h5>
