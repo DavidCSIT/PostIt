@@ -7,6 +7,10 @@
           <div class="card-body
               @if ($post->colour == "Yellow") bg-warning
               @elseif ($post->colour == "Orange") orange
+<<<<<<< HEAD
+=======
+              @elseif ($post->colour == "Blue") blue
+>>>>>>> b2c509425a0117215e44ea14c9a5809a2889eef4
               @endif
           ">
             <h5 class="card-title">{{$post->title}}</h5>
